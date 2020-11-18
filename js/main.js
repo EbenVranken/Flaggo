@@ -84,7 +84,7 @@ function reviewQuestion(a, rightAnswer) {
 
     questionsAnswered++;
 
-    if (questionsAnswered == 5) {
+    if (questionsAnswered == 10) {
         showScore();
     } else {
         getCountries();
